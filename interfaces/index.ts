@@ -28,3 +28,9 @@ export interface ButtonProps {
   image: string;
   discount?: string; // Optional property
  }
+
+ export interface PillProps {
+  label: string;
+  selected?: boolean; // Optional property to indicate if the pill is selected
+  onClick?: () => void; // Optional click handler
+ }

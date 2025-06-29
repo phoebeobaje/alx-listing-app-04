@@ -1,4 +1,6 @@
-import Layout from "../components/commons/layout/Layout";
+// Update the import path below to match the actual location and casing of your Layout component.
+// For example, if the file is at 'components/commons/Layout.tsx', use:
+import Layout from "@/components/layout/Layout";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 
